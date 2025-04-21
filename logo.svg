@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="300" viewBox="0 0 400 300" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <!-- Define gradients and filters -->
+        <linearGradient id="redGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" style="stop-color:#ff3333;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#ff0000;stop-opacity:1" />
+        </linearGradient>
+        <linearGradient id="blueGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" style="stop-color:#0066cc;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#003399;stop-opacity:1" />
+        </linearGradient>
+    </defs>
+
+    <!-- Logo Group -->
+    <g transform="translate(50, 50)">
+        <!-- House with Camera Lens -->
+        <g transform="translate(0, 0)">
+            <!-- House Shape -->
+            <path d="M150,0 L300,100 L250,100 L250,200 L50,200 L50,100 L0,100 Z" 
+                  fill="url(#redGradient)" />
+            
+            <!-- Window -->
+            <rect x="130" y="40" width="40" height="40" fill="white"/>
+            
+            <!-- Camera Lens Circle -->
+            <circle cx="150" cy="120" r="50" fill="url(#blueGradient)" />
+            <circle cx="150" cy="120" r="40" fill="#003366" />
+            <circle cx="150" cy="120" r="30" fill="#001933" />
+            
+            <!-- Lens Details -->
+            <circle cx="150" cy="120" r="25" fill="none" stroke="white" stroke-width="2"/>
+            <circle cx="150" cy="120" r="15" fill="none" stroke="white" stroke-width="2"/>
+        </g>
+    </g>
+
+    <!-- Brand Name -->
+    <text x="200" y="250" 
+          font-family="Arial Black, sans-serif" 
+          font-weight="900" 
+          font-size="48" 
+          fill="#333333"
+          text-anchor="middle">
+        WatchSector
+    </text>
+    
+    <!-- Subtitle -->
+    <text x="200" y="280" 
+          font-family="Arial, sans-serif" 
+          font-weight="600" 
+          font-size="24" 
+          fill="#666666"
+          text-anchor="middle">
+        HOME SECURITY
+    </text>
+</svg> 

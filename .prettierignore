@@ -1,0 +1,8 @@
+.next
+node_modules
+public
+build
+dist
+*.log
+package-lock.json
+yarn.lock 
